@@ -124,7 +124,21 @@ ul {
     align-items: center;
 }
 
-.box {
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    margin: 20px 10px;
+    padding: 15px 25px;
+    height: 400px;
+    width: 500px;
+    border-style: dashed;
+    border-color: #ffcdcd;
+    border-width: 10px;
+}
+
+.box2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -138,6 +152,8 @@ ul {
 .box h2 {
     text-decoration: underline;
 }
+
+
 
 .map {
     margin-top: 20px;
